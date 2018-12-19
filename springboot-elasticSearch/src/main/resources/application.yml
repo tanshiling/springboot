@@ -1,0 +1,6 @@
+spring:
+  data:
+    elasticsearch:
+      repositories:
+        enabled: true #开启ES仓库
+      cluster-nodes: localhost:9300
