@@ -13,12 +13,14 @@ import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.elasticsearch.core.query.NativeSearchQueryBuilder;
 import org.springframework.data.elasticsearch.core.query.SearchQuery;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 
 import static org.elasticsearch.index.query.QueryBuilders.functionScoreQuery;
 import static org.elasticsearch.index.query.QueryBuilders.matchPhraseQuery;
 
+@Service
 public class CityServiceImpl implements CityService {
 
     public static final Logger LOGGER = LoggerFactory.getLogger(CityServiceImpl.class);
