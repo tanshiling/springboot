@@ -8,7 +8,7 @@
 
     <!-- 不加上这个报错？？ -->
     <!-- 指定数据连接驱动jar地址 -->
-    <classPathEntry location="E:\repository\mysql\mysql-connector-java\5.1.38\mysql-connector-java-5.1.38.jar"/>
+    <classPathEntry location="E:\Maven\repository\mysql\mysql-connector-java\5.1.30\mysql-connector-java-5.1.30.jar"/>
 
     <!-- 一个数据库一个context，mybatis是数据库名 -->
     <context id="mybatis" targetRuntime="MyBatis3">
